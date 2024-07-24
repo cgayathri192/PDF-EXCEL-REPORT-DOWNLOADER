@@ -1,0 +1,5 @@
+{
+  "infrastructureReport": { "data": "Infrastructure report data" },
+  "academicReport": { "data": "Academic report data" },
+  "placementReport": { "data": "Placement report data" }
+}

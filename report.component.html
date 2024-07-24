@@ -1,0 +1,60 @@
+  <!-- <div class="button-container">
+    <button (click)="toggleDropdown('infraDropdown')" class="dropdown-button">
+      Download Infrastructure Report <span [innerHTML]="activeDropdown === 'infraDropdown' ? '&and;' : '&or;'"></span>
+    </button>
+    <div id="infraDropdown" class="dropdown" *ngIf="activeDropdown === 'infraDropdown'">
+      <a href="#" (click)="downloadFile('infrastructureReport', 'excel')">Excel</a>
+      <a href="#" (click)="downloadFile('infrastructureReport', 'pdf')">PDF</a>
+    </div>
+  </div>
+  
+  <div class="button-container">
+    <button (click)="toggleDropdown('academicDropdown')" class="dropdown-button">
+      Download Academic Report <span [innerHTML]="activeDropdown === 'academicDropdown' ? '&and;' : '&or;'"></span>
+    </button>
+    <div id="academicDropdown" class="dropdown" *ngIf="activeDropdown === 'academicDropdown'">
+      <a href="#" (click)="downloadFile('academicReport', 'excel')">Excel</a>
+      <a href="#" (click)="downloadFile('academicReport', 'pdf')">PDF</a>
+    </div>
+  </div>
+  
+  <div class="button-container">
+    <button (click)="toggleDropdown('placementDropdown')" class="dropdown-button">
+      Download Placement Report <span [innerHTML]="activeDropdown === 'placementDropdown' ? '&and;' : '&or;'"></span>
+    </button>
+    <div id="placementDropdown" class="dropdown" *ngIf="activeDropdown === 'placementDropdown'">
+      <a href="#" (click)="downloadFile('placementReport', 'excel')">Excel</a>
+      <a href="#" (click)="downloadFile('placementReport', 'pdf')">PDF</a>
+    </div>
+  </div>
+   -->
+
+   <div class="button-row">
+    <div class="button-container">
+      <button (click)="toggleDropdown('infraDropdown')" class="dropdown-button">
+        Download Infrastructure Report <span [innerHTML]="activeDropdown === 'infraDropdown' ? '&and;' : '&or;'"></span>
+      </button>
+      <div id="infraDropdown" class="dropdown" *ngIf="activeDropdown === 'infraDropdown'">
+        <a href="#" (click)="downloadFile('infrastructureReport', 'pdf')">PDF</a>
+      </div>
+    </div>
+    
+    <div class="button-container">
+      <button (click)="toggleDropdown('academicDropdown')" class="dropdown-button">
+        Download Academic Report <span [innerHTML]="activeDropdown === 'academicDropdown' ? '&and;' : '&or;'"></span>
+      </button>
+      <div id="academicDropdown" class="dropdown" *ngIf="activeDropdown === 'academicDropdown'">
+        <a href="#" (click)="downloadFile('academicReport', 'pdf')">PDF</a>
+      </div>
+    </div>
+    
+    <div class="button-container">
+      <button (click)="toggleDropdown('placementDropdown')" class="dropdown-button">
+        Download Placement Report <span [innerHTML]="activeDropdown === 'placementDropdown' ? '&and;' : '&or;'"></span>
+      </button>
+      <div id="placementDropdown" class="dropdown" *ngIf="activeDropdown === 'placementDropdown'">
+        <a href="#" (click)="downloadFile('placementReport', 'pdf')">PDF</a>
+      </div>
+    </div>
+  </div>
+  
